@@ -1,0 +1,159 @@
+*{
+	margin:0;
+	padding:0
+}
+.scroll-area{
+	width:940px;
+	margin:0 auto;
+}
+.arrow-down-1,.arrow-down-2,.arrow-down-3{
+	width:130px;
+	height:27px;
+	cursor: pointer;
+	margin:0 auto;
+	position: absolute;
+	left:42.5%;
+	display:block
+}
+#scroll-1,#scroll-2,#scroll-3,#scroll-4{
+	width:940px;
+	background-position: no-repeat!important;
+	position:relative;
+}
+/**/
+#scroll-1{
+	background:url(./image/scrolling-1.jpg);
+	height:733px;
+}
+#scroll-1 .glasses{
+	background:url(./image/glasses.png) no-repeat;
+	width:908px;
+	height: 262px;
+	position: absolute;
+	top:120px;
+	left:2%
+}
+#scroll-1 .scr-txt-1{
+	background:url(./image/scrolling-txt-1.png) no-repeat center 30px;
+	width:264px;
+	height:45px;
+	margin:0 auto;
+	padding-top:30px
+}
+.arrow-down-1{
+	background:url(./image/arrow-down-1.png) no-repeat;
+	top:80px;
+	animation:arrow-down-1 5s ease-out infinite;
+	-webkit-animation:arrow-down-1 5s ease-out infinite;
+}
+	@keyframes arrow-down-1{
+		0%,20%, 40% ,60% ,80% ,100% {top:80px;}
+		10%,30% ,50% ,70% ,90%{top:90px;}
+	}
+	@-webkit-keyframes arrow-down-1{
+		0%,20%, 40% ,60% ,80% ,100% {top:80px;}
+		10%,30% ,50% ,70% ,90%{top:90px;}
+	}
+/**/
+#scroll-2{
+	background: url(./image/scrolling-2.jpg);
+	height:630px;
+}
+.animation{
+-webkit-animation:pulse 1s .2s ease both;
+-moz-animation:pulse 1s .2s ease both;}
+@-webkit-keyframes pulse{
+0%{-webkit-transform:scale(1)}
+50%{-webkit-transform:scale(1.1)}
+100%{-webkit-transform:scale(1)}
+}
+@-moz-keyframes pulse{
+0%{-moz-transform:scale(1)}
+50%{-moz-transform:scale(1.1)}
+100%{-moz-transform:scale(1)}
+}
+#scroll-2 .scr-txt-2{
+	background:url(./image/scrolling-txt-2.png) no-repeat;
+	width:223px;
+	height:90px;
+	position:absolute;
+	top:420px
+}
+#scroll-2 .arrow-down-2{
+	background:url(./image/arrow-down-2.png) no-repeat;
+	margin-top:80px;
+	animation: arrow-down-3 5s ease-out infinite;
+	-webkit-animation: arrow-down-2 5s ease-out infinite;
+}
+	@keyframes arrow-down-3{
+		0%,20%, 40% ,60% ,80% ,100% {margin-top:70px;}
+		10%,30% ,50% ,70% ,90%{margin-top:80px;}
+	}
+	@-webkit-keyframes arrow-down-2{
+		0%,20%, 40% ,60% ,80% ,100% {margin-top:70px;}
+		10%,30% ,50% ,70% ,90%{margin-top:80px;}
+	}
+/**/
+#scroll-3{
+		background:url(./image/ba-pop.jpg) no-repeat;
+		height:450px
+}
+/**/
+#scroll-4{
+	background:url(./image/scrolling-4-lg.png) center center no-repeat;
+	height:500px;
+}
+#scroll-4 .scrolling-cate{
+	background:url(./image/scrolling-4-cate.png) no-repeat;
+	width:529px;
+	height:91px;
+	position: absolute;
+	left:20%
+}
+#scroll-4 .arrow-down-3{
+	background:url(./image/arrow-down-3.png) no-repeat;
+	animation: arrow-down-3 5s ease-out infinite;
+	-webkit-animation: arrow-down-3 5s ease-out infinite;
+}
+	@keyframes arrow-down-3{
+		0%,20%, 40% ,60% ,80% ,100% {top:380px;}
+		10%,30% ,50% ,70% ,90%{top:390px;}
+	}
+	@-webkit-keyframes arrow-down-3{
+		0%,20%, 40% ,60% ,80% ,100% {top:380px;}
+		10%,30% ,50% ,70% ,90%{top:390px;}
+	}
+#scroll-4 .scrolling-list{
+	width:700px;
+	margin:0 auto;
+	padding-top:80px
+}
+#scroll-4 .scrolling-list:after{
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+#scroll-4 .scrolling-list > a{
+	width:294px;
+	height:38px;
+	display:inline-block;
+	margin-top:85px;
+}
+#scroll-4 .scrl-lt-2,#scroll-4 .scrl-lt-4{
+	float: right
+}
+#scroll-4 .scrl-lt-1{
+	background:url(./image/scrolling-list-1.png);
+}
+#scroll-4 .scrl-lt-2{
+	background:url(./image/scrolling-list-2.png);
+}
+#scroll-4 .scrl-lt-3{
+	background:url(./image/scrolling-list-3.png);
+}
+#scroll-4 .scrl-lt-4{
+	background:url(./image/scrolling-list-4.png);
+}
